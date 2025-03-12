@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario en HTML</title>
+<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+	<h2>Formulario de Ejemplo</h2>
+	<form
+		action="#">
+		<label>Nombre:<input type="text" id="palabra" name="palabra"
+			required onblur="bucles()"></label> <br>
+		<br> <label>Letra:<input type="text" id="letra"
+			name="letra" required disabled onchange="comprobarLetra()"></label> <br>
+		<br>
+
+		<div id="cuadrados" style="display: flex"></div>
+
+	</form>
+	<br><br>
+	
+	<p id="intentos"></p>
+	<table>
+		<tbody id="tablas">
+		<tr>
+			
+			<th>Letra introducida</th>
+			<th>¿Letra encontrada?</th>
+			
+		</tr>
+		</tbody>
+	</table>
+	<script src="main.js"></script>
+</body>
+</html>

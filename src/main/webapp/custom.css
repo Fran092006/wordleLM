@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#tablas{
+	
+	border: solid black;
+	
+	border-collapse: collapse;
+	
+}
+td{
+	
+	border: solid red;
+	background-color: #F57779;
+}
+th{
+	
+	border: solid blue;
+	background-color: #8483F5;
+}
+
+
+
